@@ -1,0 +1,69 @@
+button {
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.calculator-display {
+  color: white;
+  line-height: 130px;
+  font-size: 6em;
+  
+  flex: 1;
+}
+
+.calculator-keypad {
+  height: 400px;
+  
+  display: flex;
+}
+
+.calculator .input-keys {
+  width: 240px;
+}
+
+.calculator .function-keys {
+  display: flex;
+}
+
+.calculator .digit-keys {
+  background: #e0e0e7;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.calculator-key {
+  width: 80px;
+  height: 80px;
+  border-top: 1px solid #777;
+  border-right: 1px solid #666;  
+  text-align: center;
+  line-height: 80px;
+}
+.calculator .function-keys .calculator-key {
+  font-size: 2em;
+}
+.calculator .function-keys .key-multiply {
+  line-height: 50px;
+}
+.calculator .digit-keys .calculator-key {
+  font-size: 2.25em;
+}
+.calculator .digit-keys .key-0 {
+  width: 160px;
+  text-align: left;
+  padding-left: 32px;
+}
+.calculator .digit-keys .key-dot {
+  padding-top: 1em;
+  font-size: 0.75em;
+}
+
